@@ -1,13 +1,62 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
-<html>
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="styles/styles.css">
     <title>Название документа (страницы)</title>
 </head>
-<body>
-<h1>Заголовок страницы</h1>
-<p title="Подсказка для параграфа">Параграф текста</p>
+<body class="body">
+<header class="header">
+    <div class="header__logo">
+        <div class="rectangle1"></div>
+        <div class="art"></div>
+        <div class="lenni"></div>
+        <div class="rectangle2"></div>
+    </div>
+
+    <ul class="navigation">
+        <li class="navigation__events"><a href="">Мероприятия</a></li>
+        <li class="navigation__blog"><a href="">Блог</a></li>
+        <li class="navigation__about"><a href="">О нас</a></li>
+        <li class="navigation__contacts"><a href="">Контакты</a></li>
+    </ul>
+
+    <div class="login">
+        <input class="login__button" type="button" value="Войти">
+    </div>
+</header>
+<main class="main">
+    <div class="quote">
+        <h1>АРТ - ПРОСТРАНСТВО</h1>
+        <div class="lenni"></div>
+        <h1>ДЛЯ ЛЮДЕЙ, ГОРЯЩИХ СЕРДЕЦ И ДЕЛОМ МЕСТО НАСТОЯЩЕГО</h1>
+    </div>
+    <div class="choose">
+        <p>Я ХОЧУ:</p>
+<!--        <div class="buttons">-->
+            <input class="button__event" type="button" value="Провести мероприятие">
+            <input class="button__renter" type="button" value="Стать арендатором">
+<!--        </div>-->
+    </div>
+</main>
+<footer class="footer">
+    <div class="links">
+        <div class="rectangle3"></div>
+        <ul class="links links__list">
+            <li class="links__calendar"><a href="">Календарь мероприятий</a></li>
+            <li class="links__event"><a href="">Провести мероприятие</a></li>
+            <li class="links__renter"><a href="">Стать арендатором</a></li>
+            <li class="links__projects"><a href="">Наши проекты</a></li>
+            <li class="links__contacts"><a href="">Контакты</a></li>
+        </ul>
+    </div>
+    <section class="subscription">
+        <h2>Подпишись и будь в курсе происходящего</h2>
+        <input class="subscription__email" type="email" placeholder="Email"/>
+        <button class="subscription__button" type="submit">Подписаться</button>
+        <label><input class="subscription__checkbox" type="checkbox"/>Согласен на обработку персональных данных</label>
+    </section>
+</footer>
 </body>
 </html>
+
